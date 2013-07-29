@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+#
+# Refers http://log.liminastudio.com/programming/howto-use-openid-with-web-py
+#
+
+
 ##############################
 # Reqirement:
 #  pip install web.py
@@ -33,9 +38,9 @@ class index:
 </html>
 ''' % (web.webopenid.form('/openid'),)
 
+
 if __name__ == '__main__':
     app.run()
-
 
 
 # Local Variables: **
